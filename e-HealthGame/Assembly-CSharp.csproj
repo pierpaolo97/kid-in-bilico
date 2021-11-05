@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E9F6A016-2E51-0BDE-BADE-0AF8BEBF4684}</ProjectGuid>
+    <ProjectGuid>{AB14B966-A997-3881-6C58-E36992136CA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,10 @@
     <Compile Include="Assets\Script\neverSleep.cs" />
     <Compile Include="Assets\Script\Accelerometer.cs" />
     <Compile Include="Assets\Script\cameraFollow.cs" />
+    <Compile Include="Assets\Script\detectCollision.cs" />
+    <Compile Include="Assets\Script\fromKeyboard.cs" />
+    <Compile Include="Assets\Script\time.cs" />
+    <Compile Include="Assets\Script\activateMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

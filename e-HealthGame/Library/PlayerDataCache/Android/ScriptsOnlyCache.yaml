@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Accelerometer
     - cameraFollow
+    - detectCollision
     - neverSleep
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -17,6 +18,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -58,23 +65,35 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1736}
+      Script: {instanceID: 1738}
     - Class: 114
-      Script: {instanceID: 2008}
+      Script: {instanceID: 2010}
     - Class: 114
-      Script: {instanceID: 2012}
+      Script: {instanceID: 2014}
     - Class: 114
-      Script: {instanceID: 2020}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 3238}
+      Script: {instanceID: 2024}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 3780}
+      Script: {instanceID: 2424}
     - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 2586}
     - Class: 114
-      Script: {instanceID: 4330}
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 3240}
+    - Class: 114
+      Script: {instanceID: 3670}
+    - Class: 114
+      Script: {instanceID: 3782}
+    - Class: 114
+      Script: {instanceID: 4044}
+    - Class: 114
+      Script: {instanceID: 4332}
+    - Class: 114
+      Script: {instanceID: 18640}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -92,6 +111,10 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
@@ -534,8 +557,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 9a87526c894d9fc2052bb3c97658fbd7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: detectCollision
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/lucad/OneDrive/Desktop/Universita/E-Health Methods and Applications/Project/Unity/Unity/New
-    Unity Project (1)/1.apk
+  playerPath: C:/Users/lucad/OneDrive/Desktop/Universita/E-Health Methods and Applications/Project/ProvaGit/kid-in-bilico/e-HealthGame/1.apk
